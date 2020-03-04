@@ -1,13 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* -------------------- */
+
+body{
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #F3F3F3;
+}
+
+.flex{
+  display: flex;
+  align-items: flex-start;
+}
+
+.product{
+  margin: 0.5rem;
+}
+
+
+.heading {
+  font-size : 1.2rem;
+  font-weight: 600;
+  padding: 0.4rem;
+}
+
+.para {
+  color: rgb(94, 92, 92);
+  padding: 0.15rem;
+  padding-left: 0.4rem;
+}
+
+.last{
+  padding: 0.5rem;
+}
+
+
+.number {
+  /* padding-left: 1rem; */
+} 
+
+.tags {
+  padding-left: 0.4rem;
+}
+
+.start {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: white;
+  padding: 0.3rem;
+  transition: all 0.2s;
+  border-bottom: 2px solid #F3F3F3;
+  cursor: pointer;
+}
+
+.start:hover {
+  background: #F9F9F9;
+}
+
+.upvote{
+background-image: url(https://ph-static.imgix.net/upvote-burst-white.png?format=auto&auto=compress);
+background-repeat: no-repeat;
+background-size: 351px 15px;
+height: 15px;
+width: 15px;
+}
+
+.column {
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  padding: 1rem;
+  width: 40px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  /* width: 80%; */
+}
+
+
+/* --------navbar--------- */
+
+.navbar {
+  background: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.search-div {
+/* display: inline-block; */
+padding: 0.3rem;
+border: 1px solid gainsboro;
+margin-left: 1rem;
+}
+
+.search-input {
+  border: none;
+  width: 250px;
+  outline: none;
+  margin-left: 0.5rem;
+}
+
+.nav-links {
+  margin-left: 1rem;
+  color: #73778B;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.nav-links:hover {
+  color: black;
+}
+
+
+.svg {
+background: rgb(71, 71, 71);
+width: 20px;
+height: 20px;
+margin-left: 1rem;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.nav-last {
+  justify-content: center;
+  align-items: center;
+  margin-left: 13rem;
+}
+
+.my-image {
+  margin-left: 1rem;
+}
+
+/* ---------aside-------- */
+
+.aside{
+  width: 320px;
+  margin-left: 2rem;
+}
+
+.makers-img-div {
+  /* border-radius: 50%; */
+  /* width: 32px;
+  height: 32px;  */
+  margin: 0.3rem;
+}
+
+.makers-img {
+  /* width: 100%; */
+  /* overflow: hidden; */
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0 auto;
+  width: 70%;
+}
+
+.white {
+  background: #ffffff;
+}
+
+.aside-makers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.8rem;
+}
+
+.work-para {
+  text-transform: uppercase;
+  color: rgb(204, 50, 23);
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  padding-bottom: 0.9rem;
+  cursor: pointer;
+}
+
+.work-para:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 80%;
+  opacity: 0.5;
+}
+
+.today-para {
+  padding: 0 0 1rem 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.radio-para {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+.cover_37fb2 {
+  width: 90px;
+  background: #f8f800 url(https://ph-static.imgix.net/radio/ph_radio_cat.png?auto=format&auto=compress&w=90) no-repeat 100% 100%;
+  background-size: 80% auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+}
+
+.radio-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 0.8rem;
+}
+
+.radio-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.newsletter-div {
+background-image: url(https://ph-files.imgix.net/742f9303-ea31-4ab8-89fa-664e6be69029?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=290&h=110&fit=clamp);
+width: 320px;
+height: 110px;
+}
+
+.head-news {
+  padding: 1rem;
+  background: white;
+  text-align: center;
+}
+
+.news{
+  background: white;
+}
+
+.hr2 {
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+  opacity: 0.3;
+}
+
+.news-para {
+  padding: 1rem;
+  text-align: left;
+}
+
+.news-button {
+  background: tomato;
+  padding: 0.4rem 5.5rem;
+  color: white;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.news-button-div {
+  text-align: center;
+  padding: 1rem;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0.6rem 0;
+}
+
+.today-filter {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.popular-filter {
+  text-transform: uppercase;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.popular-filter:hover {
+  text-decoration: underline;
 }
