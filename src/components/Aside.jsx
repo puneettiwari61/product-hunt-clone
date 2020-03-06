@@ -27,7 +27,7 @@ export default class Aside extends React.Component {
           <p className='today-para'>Makers working today</p>
           <div className='white'>
             <div className='white aside-makers'>
-              {arr.map(a => <Makers />)}
+              {arr.map((a,i) => <Makers key={i} />)}
             </div>
             <hr />
             <p className='work-para'>Start Working Now</p>

@@ -5,14 +5,14 @@ const Card = (props) => {
     <div className='flex start'>
     <div className='flex product'>
       <div>
-        <img src={props.image} alt="peeps" />
+        <img width='80' height='80' src={props.thumbnail.image_url} alt="peeps" />
       </div>
       <div>
         <h2 className='heading'>
-          {props.title}
+          {props.name}
         </h2>
         <p className='para'>
-          {props.text}
+          {props.tagline}
         </p>
         <div className="last">
         <span className='number'> {props.comments} </span>
@@ -22,7 +22,7 @@ const Card = (props) => {
     </div>
     <div className='flex column' onClick={() => props.handleClick(props.id)}>
       <div className="upvote" ></div>
-      <span>{props.upVote}</span> 
+      <span>{props.votes_count}</span> 
     </div>
     </div>
 

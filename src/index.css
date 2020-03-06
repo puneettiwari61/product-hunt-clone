@@ -196,6 +196,7 @@ align-items: center;
 .aside{
   width: 320px;
   margin-left: 2rem;
+  transition: all 0.2s;
 }
 
 .makers-img-div {
@@ -374,4 +375,37 @@ height: 110px;
 
 .formbtn {
   width: 100%;
+}
+
+/* ---------Loader--------- */
+.lds-circle {
+  display: inline-block;
+  transform: translateZ(1px);
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.lds-circle > div {
+  display: inline-block;
+  width: 104px;
+  height: 104px;
+  margin: 8px;
+  border-radius: 50%;
+  background: tomato;
+  animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+@keyframes lds-circle {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    transform: rotateY(3600deg);
+  }
 }
