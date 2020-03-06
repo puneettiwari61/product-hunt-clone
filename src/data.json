@@ -5,80 +5,90 @@
         "title": "Datawaves",
         "text": "Add analytics to anything",
         "comments": "126",
-        "upVote": "1064",
-        "device": "Android"
+        "upVote": 1064,
+        "device": "Android",
+        "id": 1
      },
      {
         "image": "https://ph-files.imgix.net/00cc62e7-fbbf-40b4-be56-9a9d58579a47?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Makerlog 3.0",
         "text": "The productive community for makers and indie hackers. ✨",
         "comments": "126",
-        "upVote": "652",
-        "device": "Android"
+        "upVote": 652,
+        "device": "Android",
+        "id": 2
      },
      {
         "image": "https://ph-files.imgix.net/2a750d4a-ab47-4b84-a124-3acd044b8ed6?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Flutter Dating",
         "text": "The live Sunday dating app",
         "comments": "126",
-        "upVote": "800",
-        "device": "Android"
+        "upVote": 800,
+        "device": "Android",
+        "id": 3
      },
      {
         "image": "https://ph-files.imgix.net/a0404b9d-6849-4ff5-acb7-cde92d5465d8?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Adriel",
         "text": "Facebook, Instagram and Google Ads - All in one place",
         "comments": "126",
-        "upVote": "587",
-        "device": "Android"
+        "upVote": 587,
+        "device": "Android",
+        "id": 4
      },
      {
         "image": "https://ph-files.imgix.net/ec8385c2-d317-4cf6-ac1a-e20c8d8f6b89?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "SaaS Landing Page",
         "text": "The best SaaS landing page examples for design inspiration.",
         "comments": "126",
-        "upVote": "487",
-        "device": "Android"
+        "upVote":487,
+        "device": "Android",
+        "id": 5
      },
      {
         "image": "https://ph-files.imgix.net/f64667ec-0201-4f20-9a03-161ab227a936?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Mailbrew",
         "text": "Automated email digests from Twitter, Reddit, YouTube & more",
         "comments": "126",
-        "upVote": "389",
-        "device": "Android"
+        "upVote": 389,
+        "device": "Android",
+        "id": 6
      },
      {
         "image": "https://ph-files.imgix.net/3b8fff05-5ac3-4e2b-b902-4606c677d40a?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Basecamp Personal",
         "text": "Manage all your small projects for free",
         "comments": "126",
-        "upVote": "25431",
-        "device": "Android"
+        "upVote": 25431,
+        "device": "Android",
+        "id": 7
      },
      {
         "image": "https://ph-files.imgix.net/4d44f9de-3d83-4a29-9285-a0651bc948e0?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Basecamp Personal",
         "text": "Manage all your small projects for free",
         "comments": "126",
-        "upVote": "25431",
-        "device": "Android"
+        "upVote": 25431,
+        "device": "Android",
+        "id": 8
      },
      {
         "image": "https://ph-files.imgix.net/4d44f9de-3d83-4a29-9285-a0651bc948e0?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Basecamp Personal",
         "text": "Manage all your small projects for free",
         "comments": "126",
-        "upVote": "25431",
-        "device": "Android"
+        "upVote": 25431,
+        "device": "Android",
+        "id": 9
      },
      {
         "image": "https://ph-files.imgix.net/4d44f9de-3d83-4a29-9285-a0651bc948e0?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop",
         "title": "Basecamp Personal",
         "text": "Manage all your small projects for free",
         "comments": "126",
-        "upVote": "25431",
-        "device": "Android"
+        "upVote": 25431,
+        "device": "Android",
+        "id": 10
      }
   ]
 }

@@ -20,7 +20,7 @@ const Card = (props) => {
         </div>
       </div>
     </div>
-    <div className='flex column'>
+    <div className='flex column' onClick={() => props.handleClick(props.id)}>
       <div className="upvote" ></div>
       <span>{props.upVote}</span> 
     </div>

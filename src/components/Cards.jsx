@@ -3,7 +3,9 @@ import data from './../data.json'
 import Card from './Card'
 
 
-const Cards = () => {
+class Cards extends React.Component{
+
+  render(){
   return(
     <>
     <div className='filter'>
@@ -11,10 +13,11 @@ const Cards = () => {
       <div> <span className="popular-filter">Popular</span><span className="popular-filter">Newest</span> </div>
     </div>
     <div className='cards'>
-    {data.data.map(p => <Card {...p} />)}
+    {this.props.data.map(p => <Card key={p.id} {...p} handleClick={this.props.handleClick}  />)}
     </div>
     </>
   )
+}
 }
 
 export default Cards

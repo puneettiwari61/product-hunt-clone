@@ -82,9 +82,9 @@ body{
 }
 
 
-.number {
+/* .number {
   /* padding-left: 1rem; */
-} 
+
 
 .tags {
   padding-left: 0.4rem;
@@ -359,4 +359,19 @@ height: 110px;
 
 .popular-filter:hover {
   text-decoration: underline;
+}
+
+
+.form {
+  margin: 1rem 0;
+}
+
+.input {
+  width: 90%;
+  border: none;
+  padding: 1rem;
+}
+
+.formbtn {
+  width: 100%;
 }
